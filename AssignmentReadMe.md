@@ -49,8 +49,16 @@ Expected Result:
 ### 4. AssignmentReadMe.md
 This file which describe most of the important files in this report
 
-### 5. tidy_data.txt
+### 5. README_run_analysis.md
+This file explain the run_analysis.R scripts in detail
+
+### 6. CODEBOOK.md
+This file explain the tidy/clean dataset structures. It describe each field available in the new dataset, 'tidy_data.txt'.
+
+### 7. tidy_data.txt
 This is the new file which contains the clean/tidy data after the scripts is completely executed
 
-### 6. Dataset
+### 8. Dataset
 Is the folder holding all data set files used by the scripts
+
+
