@@ -11,10 +11,10 @@ downloadData <- function(directory = "", urlFile = ""){
         urlFile = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip";
     }
     fileUrl <- urlFile;
-    download.file(fileUrl,destfile=paste(directory,"/Dataset.zip"));
+    download.file(fileUrl,destfile=paste(directory,"/Dataset.zip", sep = ""));
     
     ## unzip the file
-    unzip(zipfile=paste(directory,"/Dataset.zip"),exdir=paste(directory,"/Dataset/Original Dataset"));
+    unzip(zipfile=paste(directory,"/Dataset.zip"),exdir=paste(directory,"/Dataset/Original Dataset", sep = ""));
     
     ## see the file list
     path_rf <- file.path(paste(directory,"/Dataset/Original Dataset") , "UCI HAR Dataset")
